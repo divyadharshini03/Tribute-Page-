@@ -1,0 +1,65 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+
+
+
+html{
+
+	padding: 0px;
+	margin: 0px;
+	font-size:10px;
+}
+body{
+	font-family: Lobster;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	color: black;
+}
+
+h1{
+	margin: 10px;
+	font-size: 4rem;
+	padding: 20px;
+}
+@media(max-width){
+	h1{
+		font-size: 3.5rem;
+		line-height: 20px;
+	}
+}
+a{
+	color: #477ca7;
+}
+a:hover{
+	color: #74638f;
+}
+
+#main{
+	margin: 30px 8px;
+	border-radius: 5px;
+	background-color:background-color: rgba(45, 45, 45, 0.1) ;
+}
+@media(max-width: 460px){
+	#main{
+		margin:0;
+	}
+}
+img{
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+}
+#img-div{
+	background: white;
+	padding: 0px;
+	margin: 0;
+
+}
+@media(max-width: 460px){
+	#img-caption{
+
+		font-size: 1.4rem;
+	}
+}
